@@ -1,0 +1,24 @@
+.products{
+  margin:10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.imgTag{
+  background-color: gray;
+  border-radius: 5px;
+
+}
+
+.page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.page > span{
+  padding: 10px;
+  border: 1px black solid;
+  cursor: pointer;
+}
